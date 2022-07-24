@@ -1,0 +1,1 @@
+print("Did exception handling in day 29 🥵")
