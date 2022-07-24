@@ -9,7 +9,7 @@ except IndexError as index:
     print(f"{index} out of range incurred")
 else:
     print("In the else block \nNo error Found")
-    something = file.readlines()
+    something = file.read()
     print(something)
 finally:
     file.close()
